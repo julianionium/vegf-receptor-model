@@ -1,6 +1,6 @@
 # VEGF Receptor Competition Model
 
-A simplified Python model of how VEGF binds its two main receptors, VEGFR1 and VEGFR2, using receptor counts measured on human circulating endothelial cells by the Imoukhuede lab.
+A simplified Python model of how VEGF binds its two main receptors, VEGFR1 and VEGFR2, using receptor counts measured on human circulating endothelial cells.
 
 **Question:** When does VEGFR1 act as a "decoy" and pull VEGF away from VEGFR2, the receptor that drives blood vessel growth?
 
@@ -107,7 +107,7 @@ Sweeps use the equilibrium solution, which `validate` shows matches the full ODE
 | Linear regression | 0.078 | 0.916 |
 | Neural network (2 x 64, scikit-learn) | 0.005 | 0.9996 |
 
-Linear regression can't follow the S-shaped binding curves. The neural network is a surrogate for a model that is already fast, so it demonstrates ML skills rather than adding new science.
+Linear regression can't follow the S-shaped binding curves. The neural network is a surrogate for a model that is already fast.
 
 ![Surrogate fit](figures/surrogate_fit.png)
 
