@@ -1,0 +1,15 @@
+parameter,value,units,description,source
+kon_VEGFR1,3e7,1/M/s,how fast VEGF binds VEGFR1,"Stefanini et al. 2008, BMC Systems Biology 2:77, Table 2"
+koff_VEGFR1,1e-3,1/s,how fast VEGF falls off VEGFR1,"Stefanini et al. 2008, BMC Systems Biology 2:77, Table 2"
+Kd_VEGFR1,33,pM,koff/kon for VEGFR1,"Stefanini et al. 2008, BMC Systems Biology 2:77, Table 2"
+kon_VEGFR2,1e7,1/M/s,how fast VEGF binds VEGFR2,"Stefanini et al. 2008, BMC Systems Biology 2:77, Table 2"
+koff_VEGFR2,1e-3,1/s,how fast VEGF falls off VEGFR2,"Stefanini et al. 2008, BMC Systems Biology 2:77, Table 2"
+Kd_VEGFR2,100,pM,koff/kon for VEGFR2,"Stefanini et al. 2008, BMC Systems Biology 2:77, Table 2"
+VEGFR1_low,3000,receptors/cell,VEGFR-low circulating endothelial cells,"Imoukhuede lab, NSF PAR record (circulating endothelial cells)"
+VEGFR2_low,3000,receptors/cell,VEGFR-low circulating endothelial cells,"Imoukhuede lab, NSF PAR record (circulating endothelial cells)"
+VEGFR1_high,206000,receptors/cell,VEGFR-high circulating endothelial cells (males),"Imoukhuede lab, NSF PAR record (circulating endothelial cells)"
+VEGFR2_high,155000,receptors/cell,VEGFR-high circulating endothelial cells (males),"Imoukhuede lab, NSF PAR record (circulating endothelial cells)"
+cells,100000,cells,number of cells in the simulated well,assumed (typical culture well)
+volume,1e-3,L,medium volume in the simulated well,assumed (1 mL)
+VEGF_dose_baseline,50,pM,baseline VEGF dose,assumed
+VEGF_dose_range,1 to 1000,pM,range used in sweeps,assumed
